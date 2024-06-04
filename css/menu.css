@@ -1,0 +1,95 @@
+.menu__container{
+    background-color:#d5b6b6 ;
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2em 0;
+    margin: 10px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+}
+
+.menu__logo{
+    margin-right: 15px;
+    height: 40px;
+}
+.menu__nombre{
+    color: rgb(107, 93, 93);
+    font-weight: 600;
+    
+}
+
+.menu__enlaces{
+        display: flex;
+        gap: 25px;
+        margin-right: 25px;
+    }
+    
+    .enlaces a{
+        text-decoration: none;
+        color: rgb(107, 93, 93);
+        margin-right: 25px;
+    }
+
+    .enlaces li:last-child{
+        font-weight: 700;
+        color: #584b4b;
+
+    }
+
+    .menu__container a:hover{
+        color: #be3980;
+    }
+
+
+    @media only screen and (max-width: 767px){
+
+	/* ======= MENU ======== */
+
+	.menu__container{
+		padding: 20px 10px;
+	}
+	
+	.menu__nombre,
+	.nav-enlaces{
+		font-size: 14px;
+	}
+
+	.menu__container a:not(.email){
+		display: none;
+	}
+
+	.enlaces a {
+    margin-right: 0px;
+	}
+
+}
+
+/* ------------------------------------ */
+/* ----- Responsive para Tablets ------ */
+/* ------------------------------------ */
+
+@media (min-width:768px) and (max-width:1024px){
+
+	/* ======= MENU ======== */
+	.menu__container{
+		padding: 40px 20px;
+	}
+	
+	.menu__container p, .menu nav{
+		font-size: 18px;
+	}
+
+	.menu a:not(.email){
+		display: none;
+	}
+
+	.enlaces a {
+    margin-right: 0px;
+	}
+
+}

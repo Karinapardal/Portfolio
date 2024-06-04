@@ -1,0 +1,70 @@
+.contenedor__banner{
+	background-color: #F5F5F5;
+}
+
+.banner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 0;
+}
+
+.banner__informacion{
+	width: 70%;
+}
+
+.banner__img{
+	width: 30%;
+	display: flex;
+	justify-content: center;
+}
+
+.banner__img img{
+	width: 75%;
+	border-radius: 30rem;
+}
+
+.banner__informacion{
+	display: flex;
+	flex-direction: column;
+}
+
+.banner__informacion__titulo,
+.banner__informacion__texto,
+.banner__informacion__enlaces{
+	margin-bottom: 20px;
+}
+
+.banner__informacion__titulo{
+	font-size: 3rem;
+	font-weight: 700;
+	color: #494141;
+}
+
+.banner__informacion__texto{
+	font-size: 20px;
+	line-height: 25px;
+}
+
+.banner__informacion__enlaces{
+	display: flex;
+	flex-direction: row;
+}
+
+.banner__informacion__enlaces li::after{
+	content: '🡥';
+	color: #CFA616;
+}
+
+.banner__informacion__enlaces li{
+	margin: 0 20px 0 0;
+}
+
+.banner__informacion__enlaces a:hover{
+	color: #CFA616;
+}
+
+.banner__informacion__enlaces a{
+	text-decoration: none;
+	color: #000000;
+}

@@ -1,0 +1,33 @@
+  .btn-scrolltop {
+  width: 60px;
+  height: 60px;
+  background: #c8a5a5 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  border: 4px solid transparent;
+  transition: all 300ms ease;
+  transform: scale(0);
+  padding: 15px 20px;
+
+}
+
+.btn-scrolltop-on {
+
+  transform: translateY(0);
+
+}
+
+.btn-scrolltop:hover{
+  transform: scale(1.1);
+  border-color: rgba(0,0,0,0.1);
+}
+
+
